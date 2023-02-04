@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.1.1" class="java.beans.XMLDecoder">
+ <object class="University" id="University0">
+  <void property="name">
+   <string>dsw</string>
+  </void>
+  <void property="students">
+   <void method="add">
+    <object class="Student">
+     <void property="birthdate">
+      <object class="java.time.LocalDate" method="parse">
+       <string>1990-01-01</string>
+      </object>
+     </void>
+     <void property="lifePoints">
+      <int>68</int>
+     </void>
+     <void property="name">
+      <string>Ewa</string>
+     </void>
+     <void property="sciencePoints">
+      <int>82</int>
+     </void>
+     <void property="surname">
+      <string>Kowalska</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="Student">
+     <void property="birthdate">
+      <object class="java.time.LocalDate" method="parse">
+       <string>1990-01-01</string>
+      </object>
+     </void>
+     <void property="lifePoints">
+      <int>34</int>
+     </void>
+     <void property="name">
+      <string>Adam</string>
+     </void>
+     <void property="sciencePoints">
+      <int>34</int>
+     </void>
+     <void property="surname">
+      <string>Kowalski</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
