@@ -80,7 +80,7 @@ public class Menu {
         e.close();
     }
 
-    public University deserializeUniversity(String fileName) throws IOException{
+    public University deserializeUniversity(String fileName) throws IOException {
         XMLDecoder d = new XMLDecoder(new BufferedInputStream(new FileInputStream(fileName)));
         University university = (University) d.readObject();
         d.close();

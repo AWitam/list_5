@@ -15,9 +15,4 @@ public class Starost extends Student{
         this.groupName = groupName;
     }
 
-    // postpone colloqium day by one day
-
-
-
-
 }

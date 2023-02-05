@@ -8,7 +8,9 @@ public class Student implements Serializable {
     private int sciencePoints;
     private int lifePoints;
 
-    public Student() {}
+    public Student() {
+    }
+
     Student(String name, String surname) {
         this.name = name;
         this.surname = surname;
